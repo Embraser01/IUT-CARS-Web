@@ -1,0 +1,188 @@
+body, html
+{
+    background-color: #EDEDED !important;
+    min-height:1600px;
+}
+
+
+p{
+   font-size: 1rem;
+  line-height: 1.1rem;
+  margin: 0.5rem 0 0.4rem 0;
+}
+
+.fixed{
+    position:fixed;
+       top:0;
+       left:0;
+       width: 100%;
+      z-index:100;
+}
+
+.intro
+{
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-bottom: 20px;
+}
+
+.intro h1
+{
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.intro h5
+{
+    text-transform: uppercase;
+    background-color: #f5f5f5;
+    padding: 10px;
+    color: #333333;
+    display: inline-block;
+    font-size: 1.2rem;
+}
+
+#main-container{
+	padding-top:58px;
+}
+
+.about .col
+{
+    margin-bottom: 24px;
+}
+
+.about h5
+{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.about h6
+{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+}
+
+.about hr
+{
+    width: 40px;
+    margin-bottom: 45px;
+}
+
+.about .card
+{
+    text-align: center;
+}
+
+.about .card img
+{
+    margin-bottom: 15px;
+      border-radius: 50%;
+}
+
+.contact .col
+{
+    margin-bottom: 24px;
+}
+
+.contact h5
+{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.contact h6
+{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+}
+
+.contact hr
+{
+    width: 40px;
+    margin-bottom: 45px;
+}
+
+.contact .contact-holder
+{
+    padding-left: 40px;
+    text-align: left;
+}
+
+.contact .contact-holder h6
+{
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.contact .contact-holder p
+{
+    margin-bottom: 30px;
+}
+
+.gallerie .col
+{
+    margin-bottom: 24px;
+}
+
+.gallerie h5
+{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.gallerie h6
+{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+}
+
+.gallerie hr
+{
+    width: 40px;
+    margin-bottom: 45px;
+}
+
+.gallerie .gallerie-holder
+{
+    clear: both;
+    text-align: center;
+}
+
+.gallerie img
+{
+    width: auto;
+    height:225px;
+    display: inline-block;
+    float: left;
+    padding:5px;
+}
+
+@media all and (min-width: 50px)   {  body  { font-size:0.1em;  } }
+@media all and (min-width: 100px)  {  body  { font-size:0.2em;  } }
+@media all and (min-width: 200px)  {  body  { font-size:0.4em;  } }
+@media all and (min-width: 300px)  {  body  { font-size:0.6em;  } }
+@media all and (min-width: 400px)  {  body  { font-size:0.8em;  } }
+
+
+
+.loader {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url("../img/preloader.gif")50% 50% no-repeat #ffffff;
+}
+
+#Conception li p{
+    vertical-align:middle;
+}
